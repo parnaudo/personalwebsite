@@ -1,97 +1,116 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>UNDER CONSTRUCTION</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
 
-    <!-- Loading Bootstrap -->
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <title>Paul Arnaudo</title> 
 
-    <!-- Loading Flat UI -->
-    <link href="css/flat-ui.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
 
-    <link rel="shortcut icon" href="images/totoro-test-favicon.ico">
+    <!-- Custom styles for this template -->
+    <link href="css/custom.css" rel="stylesheet">
 
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
-    <!--[if lt IE 9]>  
-      <script src="js/html5shiv.js"></script>
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body> 
-    <div class="container">
 
+  <body>
 
-      <div class="row demo-row">
-        <div class="span9">
-          <div class="navbar navbar-inverse">
-            <div class="navbar-inner">
-              <div class="container">
-                <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target="#nav-collapse-01"></button>
-                <div class="nav-collapse collapse" id="nav-collapse-01">
-                  <ul class="nav">
-                    <li>
-                      <a href="#fakelink">
-                        Home
-                        <span class="navbar-unread">1</span>
-                      </a>
-                    </li>
-                    <li class="active">
-                      <a href="#fakelink">
-                        Messages
-                        <span class="navbar-unread">1</span>
-                      </a>
-                      <ul>
-                        <li><a href="#fakelink">Element One</a></li>
-                        <li>
-                          <a href="#fakelink">Sub menu</a>
-                          <ul>
-                            <li><a href="#fakelink">Element One</a></li>
-                            <li><a href="#fakelink">Element Two</a></li>
-                            <li><a href="#fakelink">Element Three</a></li>
-                          </ul> <!-- /Sub menu -->
-                        </li>
-                        <li><a href="#fakelink">Element Three</a></li>
-                      </ul> <!-- /Sub menu -->
-                    </li>
-                    <li>
-                      <a href="#fakelink">
-                        About Us
-                      </a>
-                    </li>
-                  </ul>
-                </div><!--/.nav -->
-              </div>
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h1 class="masthead-brand"></h3>
+              <ul class="nav masthead-nav">
+              <li><img src="images/bio.jpg" class="img-circle" alt="Circular Image"></li>
+                <li class="active"><a href="#home" data-toggle="tab">Paul Arnaudo</a></li>
+                <li><a href="#projects" data-toggle="tab">Projects</a></li>
+               
+              </ul>
             </div>
           </div>
-        </div>
-        <div class="span3">
-          <select name="herolist" value="X-Men" class="select-block span3">
-            <option value="0">Choose hero</option>
-            <option value="1">Spider Man</option>
-            <option value="2">Wolverine</option>
-            <option value="3">Captain America</option>
-            <option value="X-Men" selected="selected">X-Men</option>
-            <option value="Crocodile">Crocodile</option>
-          </select>
-        </div>
-      </div> <!-- /row -->
+		<div class="tab-content">
+		  <div class="tab-pane fade in active" id="home">           
+			   <h1 class="cover-heading">Hi There!</h1>
+	            <p class="lead">My name is Paul Arnaudo and I aim to be a well rounded full stack engineer with a specialization in applicable business intelligence. I enjoy finding solutions to problems that are data driven but also easily applicable to a business environment. Feel free to contact me if you are interested in something I've worked on or are looking to collaborate on a new project.
+	            </p>
+ <table class="table">
+ <tr><td> <a href="https://www.twitter.com/paularnaudo">Twitter</a></td>
+ <td><a href="https://github.com/parnaudo">Github</a></td>                    
+ <td><a href="https://www.linkedin.com/profile/view?id=38953159">LinkedIn</a></td>
+ <td><a href="https://plus.google.com/u/0/112524316927398265910/">Google+</a></td>
+ </table>
+	      </div>
+		  <div class="tab-pane fade" id="projects">
+		      <table class="table">
+		        <tbody>  
+		            <tr>
+		                <td><a href="https://github.com/parnaudo/spreadsheet">Spreadsheet MSSQL updater</a></td>
+		                <td>Created a spreadsheet web app for a client as an easy way to update a MS SQL table through an easy web interface that resembled a spreadsheet. </td>		
+		            </tr>
+		            <tr>
+		                <td><a href="https://github.com/parnaudo/mobile_translations">Automated Translations</a></td>
+		                <td>Scripts for automatically uploading/downloading string sheets to Smartling API</td>
+		            </tr>
+		            <tr>
+		                <td><a href="https://github.com/parnaudo/Datamining">Physician Network Analysis</a></td>
+		                <td>This project utilized publically available APIs along with proprietary data to create weighted, directed graphs of physician networks. 
+		                Networks were then analyzed using different centrality networks to select physicians for optimal marketing targeting. <a href='images/PhysicianNetworkAnalysis.pdf'> Read the full paper</a>. </td>		
+		            </tr>
+		            <tr>
+		                <td><a href="images/TextClassification.pdf">Automated Text Classification</a></td>
+		                <td>Utilized artificial neural network DAN2 to classify Reuters articles.</td>	
+		            </tr>
+		            <tr>
+		                <td><a href="http://webpages.scu.edu/broncobikes/">Bronco Bikes</a></td>
+		                <td>Started a bike rental program on campus @ Santa Clara University. Designed rental checkin/checkout system along with maitenence logger. Program no longer runs but first tast into starting a business. </td>		
+		            </tr>
+		           
+		        </tbody>
+		    </table>
+		 </div>
+		  <div class="tab-pane" id="contact">contact text</div>
+		</div>
+          <div class="inner cover">
 
-    </footer>
-    
-    <!-- Load JS here for greater good =============================-->
-    <script src="js/jquery-1.8.3.min.js"></script>
-    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
-    <script src="js/jquery.ui.touch-punch.min.js"></script>
+          </div>
+
+          <div class="mastfoot">
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap-select.js"></script>
-    <script src="js/bootstrap-switch.js"></script>
-    <script src="js/flatui-checkbox.js"></script>
-    <script src="js/flatui-radio.js"></script>
-    <script src="js/jquery.tagsinput.js"></script>
-    <script src="js/jquery.placeholder.js"></script>
-    <script src="js/jquery.stacktable.js"></script>
-    <script src="http://vjs.zencdn.net/c/video.js"></script>
-    <script src="js/application.js"></script>
+    <script>
+		  $(function () {
+		    $('#myTab a:last').tab('show');
+		  })
+	</script>
   </body>
 </html>
