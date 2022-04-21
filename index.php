@@ -58,8 +58,7 @@
  <table class="table">
  <tr><td> <a href="https://www.twitter.com/paularnaudo">Twitter</a></td>
  <td><a href="https://github.com/parnaudo">Github</a></td>                    
- <td><a href="https://www.linkedin.com/profile/view?id=38953159">LinkedIn</a></td>
- <td><a href="https://plus.google.com/u/0/112524316927398265910/">Google+</a></td>
+ <td><a href="https://www.linkedin.com/in/paul-arnaudo/">LinkedIn</a></td>
  </table>
 	      </div>
 		  <div class="tab-pane fade" id="projects">
